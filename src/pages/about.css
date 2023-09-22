@@ -1,0 +1,32 @@
+.about{
+    background: url(../assets/about.png) no-repeat;
+    height: 100vh;
+}
+
+.about h1{
+    color: #FFE600;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 72px;
+}
+
+.about p{
+    font-size: 36px;
+    color: #FFF9F9;
+    ;
+    font-weight: 700;
+}
+
+.fitness{
+    padding-left: 20px;
+    padding-top: 200px;
+    
+}
+.we{
+    background-color: #000000DE;
+}
+.we>h2{
+    color: #FFE600;
+    font-weight: 700;
+    font-size: 48px;
+}

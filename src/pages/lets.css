@@ -1,0 +1,20 @@
+.talk{
+
+}
+.forms>input{
+    background-color: #FFE60038;
+    width: 264px;
+    height: 31px;
+}
+textarea{
+    height: 107px;
+    width: 264px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
