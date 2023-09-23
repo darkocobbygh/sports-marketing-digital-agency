@@ -1,6 +1,6 @@
 .about{
     background: url(../assets/about.png) no-repeat;
-    height: 100vh;
+    background-size: cover;
 }
 
 .about h1{
@@ -29,4 +29,68 @@
     color: #FFE600;
     font-weight: 700;
     font-size: 48px;
+    padding-top: 20px;
+    padding-left: 350px;
+}
+.we-container p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.we-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-one{
+    margin: 3%;
+    position: relative;
+    align-self: flex-start;
+    order: 2;
+}
+.fir{
+    position: absolute;
+    top: 14px;
+}
+.sec{
+    position: absolute;
+    right: 5%;
+    bottom: 10px;
+}
+.tex{
+    position: absolute;
+    bottom: 10px;
+    right: 5%;
+}
+.item-two{
+    margin: 3%;
+    position: relative;
+    align-self: flex-end;
+    order: 1;
+}
+.item-three{
+    margin: 3%;
+    position: relative;
+    align-self: flex-end;
+    order: 3;
+}
+.experts{
+    position: absolute;
+    bottom: 10px;
+}
+.item-one img{
+    width: 615px;
+    height: 180px;
+}
+.item-two img{
+    width: 615px;
+    height: 180px;
+}
+.item-three img{
+    width: 615px;
+    height: 180px;
 }
