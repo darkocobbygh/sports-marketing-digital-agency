@@ -3,6 +3,7 @@ import './about.css'
 import weare from '../assets/weare.png'
 import onli from '../assets/onlin.png'
 import exper from '../assets/exper.png'
+import sk from '../assets/Sintítulo-12.png'
 const AboutUs = () => {
   return (
     <div>
@@ -30,7 +31,9 @@ const AboutUs = () => {
           <img src={exper} alt="" />
         </div>
       </div>
-      
+      <div className='sk'>
+        <img src={sk} alt="" />
+      </div>
         </div>
     </div>
     

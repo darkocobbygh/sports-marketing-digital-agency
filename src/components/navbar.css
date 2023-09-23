@@ -6,6 +6,9 @@
    height: 59px;
    background-color: black;
 }
+.active {
+    color: #FFE600;
+  }
 .logo{
     font-size: 25px;
     color:#FFE600;

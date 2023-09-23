@@ -1,9 +1,14 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import {FaBars} from 'react-icons/fa'
 import './navbar.css'
 
 const Navbar = () => {
+    const location = useLocation(); // once ready it returns the 'window.location' object
+    const [url, setUrl] = useState(null);
+    useEffect(() => {
+      setUrl(location.pathname);
+    }, [location]);
   return (
     <div>
       <nav className='nav'>
@@ -12,13 +17,13 @@ const Navbar = () => {
      </Link>
      <ul>
         <li>
-            <Link to={'/'} >HOME</Link>
+            <Link to={'/'} className={(url === "/" ?" active" : "")} >HOME</Link>
         </li>
         <li>
-            <Link to={'/about-us'}>ABOUT US</Link>
+            <Link to={'/about-us'} className={(url === "/about-us" ?" active" : "")}>ABOUT US</Link>
         </li>
         <li>
-            <Link to={'/lets-talk'}>LETS TALK!</Link>
+            <Link to={'/lets-talk'} className={(url === "/lets-talk" ?" active" : "")}>LETS TALK!</Link>
         </li>
         <li>
             <Link>

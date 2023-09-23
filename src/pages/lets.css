@@ -1,5 +1,15 @@
 .talk{
-
+    background: url(../assets/letsi.jpeg);
+    height: 100vh;
+    background-size: cover;
+}
+.talker{
+    background-color: #000;
+}
+.forms>h2{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
 }
 .forms>input{
     background-color: #FFE60038;
@@ -12,9 +22,14 @@ textarea{
 }
 
 .forms{
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: center;
+}
+.ska{
+    position: absolute;
+    bottom: 40%;
 }

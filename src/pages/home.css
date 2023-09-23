@@ -25,3 +25,9 @@
 .fits{
     color: #FFE600;
 }
+
+.sk{
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
+}
